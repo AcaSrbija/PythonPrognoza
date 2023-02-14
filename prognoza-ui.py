@@ -74,6 +74,7 @@ def Pretraga():
         Vetar = str(trvreme["wind"]["speed"])
         VremeID = trvreme["weather"][0]["id"]
         
+        '''
         print("Vlažnost vazduha: "+Vlaznost)
         print("Vidljivost: "+Vidljivost)
         print("Trenutna temperatura: "+Temp)
@@ -81,6 +82,15 @@ def Pretraga():
         print("Izlazak sunca: "+IzlazakSunca)
         print("Zalazak sunca: "+ZalazakSunca)
         print("Brzina vetra: "+Vetar+" m/s")
+        '''
+
+        print(f"Vlažnost vazduha: {Vlaznost}")
+        print(f"Vidljivost: {Vidljivost}")
+        print(f"Trenutna temperatura: {Temp}")
+        print(f"Vazdusni pritisak: {Pritisak} mbar")
+        print(f"Izlazak sunca: {IzlazakSunca}")
+        print(f"Zalazak sunca: {ZalazakSunca}")
+        print(f"Brzina vetra: {Vetar} m/s")
         
         ui.greska.setHidden(True)
         
